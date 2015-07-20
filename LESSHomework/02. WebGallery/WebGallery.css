@@ -1,0 +1,28 @@
+﻿html,
+body,
+div,
+img {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  padding: 5px;
+}
+#wrapper .main {
+  display: inline-block;
+}
+#wrapper .main .selected {
+  display: none;
+}
+#wrapper .main .main-menu {
+  width: 100px;
+  position: relative;
+}
+#wrapper .main:hover .selected {
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 5px;
+  width: 300px;
+}
+/*# sourceMappingURL=WebGallery.css.map */

@@ -1,0 +1,65 @@
+﻿body {
+    font-family:Arial, sans-serif;
+    font-size:12px;   
+}
+
+table {
+    border-spacing:0;
+    border-bottom-color:gray;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+}
+
+td, th {
+    border-right:1px solid gray;
+}
+
+.noborder {
+    border-right:hidden;
+}
+
+tr, td, th {
+    color:#4C4336;  
+    padding: 5px;
+    text-align:left;  
+}
+
+th {
+    color: white;
+    background-color:#52B506;
+    font-weight:100;      
+}
+
+tr:nth-child(odd) {
+    background: #FFFFFF;
+}
+
+tr:nth-child(even) {
+    background:#ECECD8;
+}
+
+.checkbox:disabled {
+    box-shadow: 1px 1px 2px #555 inset; 
+    background-color: #555; 
+}
+
+#logoGermany:before {
+    content:url(Images/germany.jpg);
+    width:10px;
+    height:10px;
+}
+
+#logoUK:before {
+    content:url(Images/uk.jpg);
+    width:10px;
+    height:10px;
+}
+
+#logoMx:before {
+    content:url(Images/mexico.jpg);
+    width:10px;
+    height:10px;
+}
+
+
+

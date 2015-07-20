@@ -1,0 +1,36 @@
+﻿body {
+    ul li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul li {
+            display: none;
+        }
+
+        &:hover {
+
+            a {
+                text-decoration: underline;
+            }
+
+            ul li {
+                       display: block;
+                a {            
+                text-decoration: none;
+                color: lightgray;
+                }              
+
+                &:hover {
+
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

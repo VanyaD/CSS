@@ -1,0 +1,94 @@
+﻿body, html, ul, li, div, header {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+body {
+    width: 45%;
+
+    .wrapper {
+        background-color: #1E3741;
+        border-radius: 5px;
+        border: 1px solid #00968C;
+
+        header {
+            nav {
+                li {
+                    display: inline-block;
+                    padding: 10px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    background-color: #4B5F67;
+
+                    &:hover {
+                        background-color: #1E3741;
+                    }
+
+                    &:first-of-type {
+                        margin-left: 5px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #8CACB5;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            nav {
+                display: inline-block;
+
+                li {
+                    width: 220px;
+                    display: block;
+                    border-top: 1px solid #8CACB5;
+                    padding: 10px;
+
+                    &:first-of-type {
+                        margin-top: 10px;
+                    }
+
+                    a {
+                        color: #8897A5;
+                        font-weight: bold;
+                        font-size: 11px;
+                        text-decoration: none;
+
+                        &:first-of-type {
+                            border-top: none;
+                        }
+                    }
+
+                    &:hover {
+
+                        a {
+                            color: white;
+                        }
+
+                        background-color: #00968C;
+                    }
+                }
+            }
+
+            content {
+                iframe {
+                    float: right;
+                    width: 350px;
+                    height: 270px;
+                    margin-bottom: 5px;
+                    margin-right: 20px;
+                    border: none;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

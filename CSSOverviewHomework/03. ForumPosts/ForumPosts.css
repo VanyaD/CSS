@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #A9A9A9;
+    font-family: 'Times New Roman', serif;
+    font-size:14px;
+}
+
+body > header {
+    text-align:center;
+}
+
+header {
+    font-size: 1.4em;
+}
+
+h1 {
+    color: #FAFAD2;
+}
+
+ul {
+    list-style:none;
+}
+
+nav li a {
+    color: #FFFFFF;
+    font-weight:bold;
+    text-decoration:none;  
+    font-size:1.2em;  
+}
+
+#hover {
+    background-color: #D3D3D3;
+}
+
+#underlined {
+    text-decoration:underline;
+}
+
+a.postedBy {
+    text-decoration:none;
+    color:black;
+}
+
+footer {
+    font-size:0.9em;
+}
+
+#mainfooter {
+    font-size: 1.3em;
+    text-align:center;
+}

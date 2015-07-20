@@ -1,0 +1,55 @@
+﻿body {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    font-size:11px;
+    text-align:left;
+    font-weight:100;
+}
+
+table {
+    background-color: #595959;
+    width: 305px;
+    height:100px;
+}
+
+th {
+    color: white;
+    font-weight:100;
+    width: 100px;
+}
+
+td, th {
+    vertical-align: top;
+    padding-top:7px;
+}
+
+thead tr th {
+    color:#BBBCBD;
+    font-size: 1.5em;
+}
+
+.orange {
+    color:#DE6B1C;
+    font-weight: bold;
+}
+
+.color {
+    color: #FFF2B2
+}
+
+.red.supports {
+    color: red;
+    font-weight:100;
+    padding-top:0;
+}
+
+.supports {
+    color:  #BBBCBD;
+}
+
+a {
+    text-decoration:none;
+}
+
+

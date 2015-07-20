@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "01. ForumPost", "01. ForumPost\01. ForumPost.vbproj", "{B4E17C01-3C97-442D-AB6D-0C1642B834C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WebGallery", "02. WebGallery\02. WebGallery.csproj", "{48E38B21-E6CD-4E24-9B3B-51FEB43DFA19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E17C01-3C97-442D-AB6D-0C1642B834C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E17C01-3C97-442D-AB6D-0C1642B834C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E17C01-3C97-442D-AB6D-0C1642B834C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E17C01-3C97-442D-AB6D-0C1642B834C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E38B21-E6CD-4E24-9B3B-51FEB43DFA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E38B21-E6CD-4E24-9B3B-51FEB43DFA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E38B21-E6CD-4E24-9B3B-51FEB43DFA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E38B21-E6CD-4E24-9B3B-51FEB43DFA19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿body {
+    font-family: Consolas;
+    color:  #0094ff;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('Fonts/Concorde BE with Oldstyle Figur Italic.otf');
+}
+
+p::first-line {
+    font-weight:bold;
+}
+
+p::first-letter {
+    font-family: 'Edwardian Script ITC', myFirstFont;
+    font-size: 2.4em;
+}
